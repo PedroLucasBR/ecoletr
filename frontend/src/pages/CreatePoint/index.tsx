@@ -142,9 +142,7 @@ const CreatePoint = () => {
 
         await api.post('points', data);
 
-        alert('Ponto criado!')
-
-        history.push('/');
+        history.push('/done');
     }
 
     return (
